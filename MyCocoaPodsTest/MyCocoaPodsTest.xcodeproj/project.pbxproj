@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -110,7 +110,6 @@
 				B5ECCB251B3355AE71A83005 /* Pods-MyCocoaPodsTest iOS.debug.xcconfig */,
 				C47F9E532FA3C6BFFDFDDCC2 /* Pods-MyCocoaPodsTest iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -393,6 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = test.MyCocoaPodsTest;
 				PRODUCT_NAME = MyCocoaPodsTest;
 				SDKROOT = iphoneos;
