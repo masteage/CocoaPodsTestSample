@@ -1,8 +1,12 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
 
-def fb_pod_test
+def pod_test
   pod 'FBSDKCoreKit', '~>6.5.2'
+  pod 'FBSDKShareKit', '~>6.5.2'
+  pod 'FBSDKLoginKit', '~>6.5.2'
+  pod 'GoogleSignIn', '5.0.2'
+  pod 'Firebase/AdMob'
 end
 
 target 'MyCocoaPodsTest iOS' do
@@ -10,5 +14,5 @@ target 'MyCocoaPodsTest iOS' do
   use_frameworks!
 
   # Pods for MyCocoaPodsTest iOS
-  fb_pod_test
+  pod_test
 end

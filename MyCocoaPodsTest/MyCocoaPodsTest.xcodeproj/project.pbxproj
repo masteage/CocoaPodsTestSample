@@ -126,6 +126,7 @@
 				2C6E0C8F24EE4A510049431D /* Frameworks */,
 				2C6E0C9024EE4A510049431D /* Resources */,
 				A8B21D271D39EFA81988E63B /* [CP] Embed Pods Frameworks */,
+				573C92AA5583344FE60EF099 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +183,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		573C92AA5583344FE60EF099 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCocoaPodsTest iOS/Pods-MyCocoaPodsTest iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCocoaPodsTest iOS/Pods-MyCocoaPodsTest iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCocoaPodsTest iOS/Pods-MyCocoaPodsTest iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A8B21D271D39EFA81988E63B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
